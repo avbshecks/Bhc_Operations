@@ -16,7 +16,7 @@ mmmudamburi@gmail.com
 
 1. Create a db
 
->Create a  database  of your   favourite which you will use .In this scenario I used mysql e.g database is absa.
+>Create a  database  of your   favourite which you will use .In this scenario I used mysql e.g database is hbc.
 >Add the database credentials in application.properties file found in src/main/resources/application.properties
 
 spring.datasource.username=your_sername
@@ -30,7 +30,7 @@ This  will create a db for you, check with your favourite workbench
 
 >Build your maven  project  using -- mvn clean install 
 > 
->  Change directory to project folder  && java -jar target/AbsaBanking-0.0.1-SNAPSHOT.jar
+>  Change directory to project folder  && java -jar target/bhctobaco-0.0.1-SNAPSHOT.jar
 > 
 > Access  the endpoints  as  stated above .I have provided some sample  requests  to test in src/test/resources/scratch.txt
 
